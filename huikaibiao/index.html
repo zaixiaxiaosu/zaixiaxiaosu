@@ -1,68 +1,303 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <title>回笔记</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="description" content="Description">
-    <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <!-- 设置浏览器图标 -->
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <!-- 默认主题 -->
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+     <title>回凯彪PIE</title>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="GermanPie Website">
+     <meta name="keywords" content="huikaibiao">
+     <meta name="author" content="H_KUN">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     <link rel="shortcut icon" href="favicon32.ico" type="image/x-icon">
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/font-awesome.min.css">
+     <link rel="stylesheet" href="css/aos.css">
+     <link rel="stylesheet" href="css/owl.carousel.min.css">
+     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+     <link rel="stylesheet" href="css/templatemo-digital-trend.css">
 </head>
+<body>  
+     <!-- Nav -->
+     <nav class="navbar navbar-expand-lg" style="display:block; margin-right:0px;">
+          <div class="container">
+               <a class="navbar-brand" href="index.html">
+                    <span stylle="z-index:2;"><img
+                              style="height:3vh; width:auto; margin-top:-3px;background-color: #fff; border-radius:50%;"
+                              src="images/PieLogo.svg"></span>
+               </a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+               </button>
 
-<body>
-    <!-- 定义加载时候的动作 -->
-    <div id="app">加载中...</div>
-    <script>
-        window.$docsify = {
-            // 项目名称
-            name: 'huibiji',
-            // 仓库地址，点击右上角的Github章鱼猫头像会跳转到此地址
-            repo: 'https://zaixiaxiaosu.github.io/',
-            // 侧边栏支持，默认加载的是项目根目录下的_sidebar.md文件
-            loadSidebar: true,
-            // 导航栏支持，默认加载的是项目根目录下的_navbar.md文件
-            loadNavbar: true,
-            // 封面支持，默认加载的是项目根目录下的_coverpage.md文件
-            coverpage: true,
-            // 最大支持渲染的标题层级
-            maxLevel: 5,
-            // 自定义侧边栏后默认不会再生成目录，设置生成目录的最大层级（建议配置为2-4）
-            subMaxLevel: 4,
-            // 小屏设备下合并导航栏到侧边栏
-            mergeNavbar: true,
-            /*搜索相关设置*/
-            search: {
-                maxAge: 86400000,// 过期时间，单位毫秒，默认一天
-                paths: 'auto',// 注意：仅适用于 paths: 'auto' 模式
-                placeholder: '搜索',              
-                // 支持本地化
-                placeholder: {
-                    '/zh-cn/': '搜索',
-                    '/': 'Type to search'
-                },
-                noData: '找不到结果',
-                depth: 4,
-                hideOtherSidebarContent: false,
-                namespace: 'Docsify-Guide',
-            }
-        }
-    </script>
-    <!-- docsify的js依赖 -->
-    <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-    <!-- emoji表情支持 -->
-    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
-    <!-- 图片放大缩小支持 -->
-    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
-    <!-- 搜索功能支持 -->
-    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
-    <!--在所有的代码块上添加一个简单的Click to copy按钮来允许用户从你的文档中轻易地复制代码-->
-    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                         <li class="nav-item">
+                              <a href="#about" class="nav-link smoothScroll">关于</a>
+                         </li>
+                         <li class="nav-item">
+                              <a href="#project" class="nav-link smoothScroll">内容</a>
+                         </li>
+                         <li class="nav-item">
+                              <a href="#business" class="nav-link smoothScroll">业务</a>
+                         </li>
+                         <li class="nav-item">
+                              <a href="contact.html" class="nav-link contact">联系我们</a>
+                         </li>
+                    </ul>
+               </div>
+          </div>
+     </nav>
+     <!-- Main Titel -->
+     <section class="bannercut hero hero-bg d-flex justify-content-center align-items-center"
+          style="background-image:url(images/bannerpsd.jpg);background-size:cover;">
+          <div class="container">
+               <div class="row">
+                    <div class="col-lg-6 col-md-10 col-12 d-flex flex-column justify-content-center align-items-center">
+                         <div class="hero-text" data-aos="fade-up">
+                              <span style="z-index:2;"><img
+                                        style="height:40%; width:auto; margin-top:-3px;background-color: #fff; border-radius:50%;"
+                                        src="images/PieLogo.svg"></span>
+                                        
+                              <h1 class="text-white" >回凯彪 PIE</h1>
+                              <a style="color: #fff">位于沧州的自媒体团队</a>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+
+     <!-- ABOUT -->
+     <section class="about section-padding pb-0" id="about">
+          <div class="container" style="position:relative;">
+               <div class="row">
+                    <div class="col-lg-10 mx-auto col-md-10 col-12">
+                         <div class="about-info">
+                              <h2 style="max-width:100%;" class="mb-5" data-aos="fade-up">我们是<strong>回凯彪PIE</strong>，位于沧州的影视制作团队。</h2>
+                              <p style="font-size: 1.3rem;"class="mb-0" data-aos="fade-up">身处在典型北方城市，我们的镜头对准了这里的农村状况，也采集到了最多最真实的真实新农村的样本。</br>我们也承接各种企业城市产品宣传片、主题片、广告片、纪录片、短视频制作,以及各种互联网需求定制。
+                              </br></br>
+                              <span style="font-size: 1.3rem;">
+                              助力新农村发展，呈现新农村风采。
+                              </span>
+                              </p>
+                         </div>
+                         <div style="margin-top:2%;"class="about-image" data-aos="fade-up" data-aos-delay="200">
+                              <img src="images/allproject.jpg" class="img-fluid img-window" alt="office">
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+          <center style="height:50px;display:block;margin-top:2%;" >
+               <a style="z-index:2;" target="_blank" href="https://space.bilibili.com/71083145">
+                    <span class="fa linkicon"><i><svg xmlns="http://www.w3.org/2000/svg" width="47px" height="38px"
+                                   viewBox=" 2 1 21 23";>
+                                   <path
+                                        d="M17.813 4.653h.854c1.51.054 2.769.578 3.773 1.574 1.004.995 1.524 2.249 1.56 3.76v7.36c-.036 1.51-.556 2.769-1.56 3.773s-2.262 1.524-3.773 1.56H5.333c-1.51-.036-2.769-.556-3.773-1.56S.036 18.858 0 17.347v-7.36c.036-1.511.556-2.765 1.56-3.76 1.004-.996 2.262-1.52 3.773-1.574h.774l-1.174-1.12a1.234 1.234 0 0 1-.373-.906c0-.356.124-.658.373-.907l.027-.027c.267-.249.573-.373.92-.373.347 0 .653.124.92.373L9.653 4.44c.071.071.134.142.187.213h4.267a.836.836 0 0 1 .16-.213l2.853-2.747c.267-.249.573-.373.92-.373.347 0 .662.151.929.4.267.249.391.551.391.907 0 .355-.124.657-.373.906zM5.333 7.24c-.746.018-1.373.276-1.88.773-.506.498-.769 1.13-.786 1.894v7.52c.017.764.28 1.395.786 1.893.507.498 1.134.756 1.88.773h13.334c.746-.017 1.373-.275 1.88-.773.506-.498.769-1.129.786-1.893v-7.52c-.017-.765-.28-1.396-.786-1.894-.507-.497-1.134-.755-1.88-.773zM8 11.107c.373 0 .684.124.933.373.25.249.383.569.4.96v1.173c-.017.391-.15.711-.4.96-.249.25-.56.374-.933.374s-.684-.125-.933-.374c-.25-.249-.383-.569-.4-.96V12.44c0-.373.129-.689.386-.947.258-.257.574-.386.947-.386zm8 0c.373 0 .684.124.933.373.25.249.383.569.4.96v1.173c-.017.391-.15.711-.4.96-.249.25-.56.374-.933.374s-.684-.125-.933-.374c-.25-.249-.383-.569-.4-.96V12.44c.017-.391.15-.711.4-.96.249-.249.56-.373.933-.373Z" />
+                              </svg>
+                         </i></span>
+               </a>
+               <a style="z-index:2; margin-left:15%;" target="_blank" 
+                    href="https://www.youtube.com/channel/UCOsfJrGwn-ipHgNa_I26hCw">
+                    <span class="linkicon"><i class="fa fa-youtube"></i></span>
+               </a>
+               <a style="z-index:2; margin-left:15%;" target="_blank" href="https://www.weibo.com/u/5521120494">
+                    <span class="linkicon"><i class="fa fa-weibo"></i></span>
+               </a>
+
+          </center>
+     </section>
+
+
+    
+     <!-- Business -->
+     <section class="testimonial section-padding" id="business">
+          <div class="container">
+               <div class="row">
+                    <div class="col-lg-6 col-md-7 col-12">
+                         <div class="contact-image mobilcenter" data-aos="fade-up">
+                              <img src="images/gadget.jpg" class="img-fluid mobilecenter" alt="回凯彪"
+                                   style="margin-left:20%; width:55%;border-radius:50%;">
+                         </div>
+                    </div>
+                    <div class="col-lg-6 col-md-7 col-12" style="background-color:#c1cbd7">
+                         </br>
+                         <h2 class="mb-5 text-center" data-aos="fade-up" data-aos-delay="100">设备与品质</h2>
+                         <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">
+                              三机位4K超高清规格拍摄能力，多台电子三轴稳定器提供优质画面。两台无人机可进行室内外航拍，全套专业录音设备，覆盖静态采访以及户外环境需求。
+                         </h3>
+                    </div>
+                    <div class="col-lg-6 col-md-7 col-12" style="margin-top:5%; background-color:#afb0b2">
+                         </br>
+                         <h2 class="mb-5 text-center" data-aos="fade-up" data-aos-delay="100">专业团队</h2>
+
+                         <!-- <div class="quote" data-aos="fade-up" data-aos-delay="200"></div> -->
+
+                         <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">
+                              拥有独立工作室，多年资深导演团队，从前期策划到后期剪辑，全自主运营，对成片品质直接把控。团队成员均拥有丰富的新媒体运营经验，对当代互联网用户的喜好进行了深刻的洞察。
+                         </h3>
+                    </div>
+                    <div class="col-lg-6 col-md-5 col-12">
+                         <div class="contact-image hidemobil" data-aos="fade-up">
+                              </br>
+                              <img src="images/team.jpg" class="img-fluid hidemobil" alt="回凯彪"
+                                   style="margin-left:15%; margin-top:10%;width:70%;border-radius:50%;">
+                         </div>
+                    </div>
+                    <div class="col-lg-6 col-md-7 col-12">
+
+                         <div class="contact-image hidemobil" data-aos="fade-up">
+                              <img src="images/experience.jpg" class="img-fluid hidemobil" alt="回凯彪"
+                                   style="margin-left:10%; margin-top:8%;width:65%;border-radius:50%;">
+                         </div>
+                    </div>
+                    <div class="col-lg-6 col-md-7 col-12" style="margin-top:5%; background-color:#dfd7d7">
+                         </br>
+                         <h2 class="mb-5 text-center" data-aos="fade-up" data-aos-delay="100">承接业务</h2>
+                         <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">
+                              我们拥有丰富的商业拍摄经验，承接过来自国内外知名大型企业的宣传片拍摄。如果您有 展会记录，活动快剪，企业宣传，新闻取材，城市印象等
+                              各种影像拍摄剪辑需求，欢迎<a href="/contact.html">联系我们</a>。
+                         </h3>              
+                    </div>
+               </div>
+          </div>
+     </section>
+      <!-- PROJECT -->
+      <section class="project section-padding" id="project" style="padding-top:40px;padding-bottom:0px;margin-top:20px;">
+          <div class="container-fluid">
+
+
+               <div class="row">
+
+                    <div class="col-lg-12 col-12">
+
+                         <h2 class="mb-5 text-center" data-aos="fade-up">
+                              我们的内容
+                         </h2>
+
+                         <div class="owl-carousel owl-theme" id="project-slide">
+                              
+                              <div class="imgroll item project-wrapper" data-aos="fade-up" data-aos-delay="100">
+                                   <img src="images/amde.jpg" class="img-fluid" alt="project image">
+
+                                   <div class="project-info">
+                                        <small>社会观察</small>
+
+                                        <h3>
+                                             <a href="https://www.bilibili.com/video/BV1iU4y177sc">
+                                                  <span>凌晨下的沧州</span>
+                                                  <i class="fa fa-play project-icon"></i>
+                                             </a>
+                                        </h3>
+                                   </div>
+                              </div>
+
+		<div class="imgroll item project-wrapper" data-aos="fade-up">
+                                   <img src="images/xiaosu.jpg" class="img-fluid" alt="project image">
+                                   <div class="project-info">
+                                        <small>生活记录</small>
+                                        <h3>
+                                             <a href="https://www.douyin.com/user/MS4wLjABAAAA2aCS3QMMrW5UFdMMtlv2ob9zp42eZJH0rWU_VR8GOHo">
+                                                  <span>小苏的生活记录</span>
+                                                  <i class="fa fa-play project-icon"></i>
+                                             </a>
+                                        </h3>
+                                   </div>
+                              </div>
+
+                              <div class="imgroll item project-wrapper" data-aos="fade-up">
+                                   <img src="images/guide.jpg" class="img-fluid" alt="project image">
+
+                                   <div class="project-info">
+                                        <small>社会观察</small>
+                                        <h3>
+                                             <a href="https://www.bilibili.com/video/BV1Nf4y157CN">
+                                                  <span>疫情后的就业问题</span>
+                                                  <i class="fa fa-play project-icon"></i>
+                                             </a>
+                                        </h3>
+                                   </div>
+                              </div>
+                              <div class="imgroll item project-wrapper" data-aos="fade-up">
+                                   <img src="images/money.jpg" class="img-fluid" alt="project image">
+                                   <div class="project-info">
+                                        <small>社会观察</small>
+                                        <h3>
+                                             <a href="https://www.bilibili.com/video/BV1S3411y7RV">
+                                                  <span>90后的消费观〡我的钱都去哪儿了</span>
+                                                  <i class="fa fa-play project-icon"></i>
+                                             </a>
+                                        </h3>
+                                   </div>
+                              </div>
+                              <div class="imgroll item project-wrapper" data-aos="fade-up">
+                                   <img src="images/music.jpg" class="img-fluid" alt="project image">
+
+                                   <div class="project-info">
+                                        <small>社会观察</small>
+                                        <h3>
+                                             <a href="https://www.bilibili.com/video/BV1ez4y117Bq">
+                                                  <span>我只想和音乐离的更近</span>
+                                                  <i class="fa fa-play project-icon"></i>
+                                             </a>
+                                        </h3>
+                                   </div>
+                              </div>
+                              <div class="imgroll item project-wrapper" data-aos="fade-up">
+                                   <img src="images/pet.jpg" class="img-fluid" alt="project image">
+
+                                   <div class="project-info">
+                                        <small>社会观察</small>
+                                        <h3>
+                                             <a href="https://www.bilibili.com/video/BV1dT4y1P7FZ">
+                                                  <span>沧州动物收容所</span>
+                                                  <i class="fa fa-play project-icon"></i>
+                                             </a>
+                                        </h3>
+                                   </div>
+                              </div>
+                              <div class="imgroll item project-wrapper" data-aos="fade-up">
+                                   <img src="images/leben.jpg" class="img-fluid" alt="project image">
+
+                                   <div class="project-info">
+                                        <small>社会观察</small>
+                                        <h3>
+                                             <a href="https://www.bilibili.com/video/BV1S3411y7RV">
+                                                  <span>从导游到外卖大哥</span>
+                                                  <i class="fa fa-play project-icon"></i>
+                                             </a>
+                                        </h3>
+                                   </div>
+                              </div>
+                              <div class="imgroll item project-wrapper" data-aos="fade-up">
+                                   <img src="images/dajiangyou.jpg" class="img-fluid" alt="project image">
+
+                                   <div class="project-info">
+                                        <small>企业宣传片</small>
+                                        <h3>
+                                             <a>
+                                                  <span>沧州仓库宣传片</span>
+                                             </a>
+                                        </h3>
+                                   </div>
+                              </div>
+
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </section>
+     <footer class="site-footer">
+          <a class="copyright-text">&copy;2017 - 2022&nbsp&nbsp;回凯彪 PIE All rights reserved.</a>
+     </footer>
+     <!-- SCRIPTS -->
+     <script src="js/jquery.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/aos.js"></script>
+     <script src="js/owl.carousel.min.js"></script>
+     <script src="js/smoothscroll.js"></script>
+     <script src="js/custom.js"></script>
 </body>
-
 </html>
